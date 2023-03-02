@@ -1,0 +1,115 @@
+/* fonts */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTTravels';
+    src: url('../fonts/TTTravels/TTTravels-DemiBold.eot');
+    src: url('../fonts/TTTravels/TTTravels-DemiBold.woff') format('woff'), url('../fonts/TTTravels/TTTravels-DemiBold.woff2') format('woff2'), url('../fonts/TTTravels/TTTravels-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.header{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  z-index: 10;
+  position: fixed;
+  transition: 1s;
+  height: 100px;
+}
+.active {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.header-img {
+  text-align: center;
+  opacity: 0.8;
+  width: 100%;
+  transition: 0.2s linear;
+}
+.header-img:hover {
+  opacity: 1;
+}
+.header-logo {
+  width: 100px;
+  height: auto;
+}
+.header-text {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 12px;
+}
+
+.header a {
+  font-family: 'Roboto', sans-serif;
+  color: #747272;
+  letter-spacing: 5px;
+  text-decoration: none;
+  word-spacing: 25px;
+  transition: 0.2s linear;
+}
+.header a:hover {
+  color: #ffffff;
+}
+.main {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+
+}
+.title-text {
+  padding: 24% 0 26% 0;
+  font-family: 'TTTravels', sans-serif;
+  text-align: center;
+  -webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.title-text h1 {
+  text-transform: uppercase;
+  font-size: 64px;
+  color: #ffffff;
+}
+.title-text p {
+  font-size: 20px;
+  color: #B6AEAE;
+}
+.title-text span {
+  color: #CB2929;
+}
+
+
+.lorem {
+  height: 1000px;
+}
+
+
+@media (max-width: 767px) {
+  .title-text h1 {
+    font-size: 20px;
+    margin-top: 60%;
+  }
+  .title-text p {
+    font-size: 13px;
+  }
+  .main {
+    height: 800px;
+  }
+  .header {
+    position: relative;
+  }
+  .active {
+    background-color: rgba(0,0,0,0);
+  }
+}
