@@ -214,4 +214,35 @@
   .active {
     background-color: rgba(0,0,0,0);
   }
+  .features h2 {
+    font-size: 20px;
+  }
+  .feature {
+    display: block;
+  }
+  .features p {
+    font-size: 13px;
+  }
+  .section-title {
+    font-size: 20px;
+  }
+  .seasons-btn {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .seasons-title {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    color: #CB2929;
+  }
+  .seasons p {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+@media (max-width: 1205px) {
+  .seasons img {
+    display: none;
+  }
 }
