@@ -63,8 +63,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
-
+  height: 800px;
 }
 .title-text {
   padding: 24% 0 26% 0;
@@ -89,9 +88,106 @@
   color: #CB2929;
 }
 
+.content {
+  height: 4000px;
+  background-image: url(../img/backgroundblack.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.features {
+  color: #ffffff;
+  font-family: 'TTTravels', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+.feature {
+  display: inline-block;
+  margin: 40px;
+}
+.feature h2 {
+  font-size: 62px;
+  margin-bottom: 0;
+}
+.feature p {
+  margin-top: 0;
+  font-size: 31px;
+}
+.seasons {
+  margin-top: 183px;
+}
+.section-title {
+  font-family: 'TTTravels', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 64px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.seasons-btn {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #ffffff;
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+.active-btn {
+  border: #ffffff 1px solid;
+  border-radius: 30px;
+}
+.seasons-title {
+  font-family: 'TTTravels', sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 64px;
+  color: #ffffff;
+  margin-top: 80px;
+}
+.seasons p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 31px;
+}
+.seasons-btn-link {
+  margin-top: 38px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 19px;
+  color: #ffffff;
+  background-color: rgba(0,0,0,0);
+  border: #ffffff 1px solid;
+  border-radius: 30px;
+  padding: 5px 0 5px 0;
+  transition: 0.2s linear;
+  z-index: 1;
+}
+.seasons-btn-link:hover {
+  color: #000;
+  background-color: #ffffff;
+}
+.seasons img {
+  left: 45%;
+  top: 1400px;
+  opacity: 0.8;
+  width: 50%;
+  position: absolute;
+  z-index: 0;
+  -webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  pointer-events: none;
+}
 
 .lorem {
   height: 1000px;
+}
+.opacity {
+  opacity: 0;
 }
 
 

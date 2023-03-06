@@ -8,3 +8,15 @@ $(function() {
        }
    });
 });
+
+var scroll = 0;
+window.onscroll = onScroll;
+function onScroll() {
+  var top = window.pageYOffset;
+  if (scroll < top) {
+    $(".header").addClass("opacity");
+  } else if (scroll > top) {
+    $(".header").removeClass("opacity");
+  }
+  scroll = top;
+}
